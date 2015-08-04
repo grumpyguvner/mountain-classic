@@ -1,0 +1,8 @@
+body, main, #stats, #testimonials figure.cover .testimonial .details, #extras { background-image:url(../images/pattern-horns-fade.png) !important; }
+aside .blocktitle:before, #footer:before { background-image:url(../images/pattern-horns.png); }
+@media only screen and (max-width:1024px) {
+#rooms.list.grid .item .details:before { background-image:url(../images/pattern-horns.png); }
+}
+@media only screen and (max-width:800px) {
+#rooms.list .item .details:before { background-image:url(../images/pattern-horns.png); }
+}

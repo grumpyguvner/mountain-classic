@@ -1,0 +1,21 @@
+@media only screen and (min-width:1150px) {
+body[class*='background-']:before, body[class*='background-']:after { content:""; width:600px; height:100%; background-size:cover; position:fixed; top:0; }
+body[class*='background-']:before { left:0; background-position:left; }
+body[class*='background-']:after { right:0; background-position:right; }
+body { background:#666 top left repeat-x fixed; }
+#container { max-width:1420px; margin:0 auto; box-shadow:0 0 1px rgba(0,0,0,.2),0 0 15px rgba(0,0,0,.2); z-index:1; }
+#nav { background:none; box-shadow:none; }
+#nav * { z-index:2; }
+#nav .centre { max-width:1320px !important; background:#FFF; }
+#nav .shadow { width:100%; height:100%; padding-bottom:20px; position:absolute; top:0; left:0; overflow:hidden; z-index:1; }
+#nav .shadow:before { content:""; width:100%; height:calc(100% - 20px); box-shadow:0 0 1px rgba(0,0,0,.2),0 0 15px rgba(0,0,0,.15); position:absolute; top:0; left:0; }
+#header { background-size:auto; }
+.page-gallery main { padding:60px; }
+}
+
+@media only screen and (max-width:1500px) {
+#container { max-width:1150px !important; }
+#nav .centre { max-width:1050px !important; }
+#check { width:auto; padding:0 50px; }
+#check .centre { max-width:none; }
+}
