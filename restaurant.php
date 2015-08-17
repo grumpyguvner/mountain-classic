@@ -72,9 +72,9 @@ else {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Base Hotel - Restaurant</title>
-<link rel="stylesheet" href="system/css/global.css">
-<link class="colour" rel="stylesheet" href="system/css/colour-blue.css">
-<link class="pattern" rel="stylesheet" href="system/css/pattern-china.css">
+<link rel="stylesheet" href="css/classic.css">
+<link class="colour" rel="stylesheet" href="css/colour-classic-ski.css">
+<link class="pattern" rel="stylesheet" href="css/pattern-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>

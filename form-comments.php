@@ -62,8 +62,8 @@ else {
 <head>
 <meta charset="utf-8">
 <title>Leave a Comment</title>
-<link rel="stylesheet" href="system/css/global.css">
-<link class="colour" rel="stylesheet" href="system/css/colour-blue.css">
+<link rel="stylesheet" href="css/classic.css">
+<link class="colour" rel="stylesheet" href="css/colour-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="system/js/plugins.js"></script>
 <script src="system/js/global.js"></script>
