@@ -28,8 +28,8 @@ if($continue===true){
 	
 	// Hotel Details
 	
-	$hotel_name = "Base Hotel";
-	$hotel_email = "test@klayemorrison.com";
+	$hotel_name = "Classic Alpine";
+	$hotel_email = "info@classicalpine.com";
 	
 	// Send Email to Guest
 	
@@ -83,22 +83,21 @@ else {
 }
 ?>
 <!DOCTYPE HTML>
-<!-- Base Hotel: HTML Template by Klaye Morrison (http://klayemorrison.com) -->
 <html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Base Hotel - Experience Luxury</title>
-<link rel="stylesheet" href="css/classic.css">
-<link class="colour" rel="stylesheet" href="css/colour-classic-ski.css">
-<link class="pattern" rel="stylesheet" href="css/pattern-classic-ski.css">
+<title>Classic Alpine - Experience Luxury</title>
+<link rel="stylesheet" href="/css/classic.css">
+<link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
+<link class="pattern" rel="stylesheet" href="/css/pattern-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body class="singlepage fullwidth">
 <!-- Navigation | START -->
 <div id="nav">
     <div class="centre">
-        <img alt="" src="system/images/logo.png" class="logo" />
+        <img alt="" src="/system/images/logo.png" class="logo" />
         <div class="shadow"></div>
     </div>
 </div>
@@ -121,7 +120,7 @@ else {
             </div>
         </div>
         <!-- Featured Slider | END -->
-        <!-- Check Rates Banner | START -->
+        <!-- Check Rates Banner | START --> <!--
         <div id="check">
         	<div class="centre">
             	<form action="single.php#contact" method="post">
@@ -339,9 +338,9 @@ else {
                 </form>
             </div>
             <!-- Contact Form | END -->
-            <h2 style="margin:0;"><strong>+61 8 3456 7890</strong></h2>
-            <p style="margin:0;"><a href="mailto:stay@basehotel.com">stay@basehotel.com</a><br />
-            101 Luxury Street, Perth, WA Australia 6000</p>
+            <h2 style="margin:0;"><strong>01444 390 242</strong></h2>
+            <p style="margin:0;"><a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br />
+            2A Albert Street, Tring, Hertfordshire, HP23 6AU</p>
         </div>
         <!-- Google Map | START -->
         <script>
@@ -399,14 +398,14 @@ else {
         <!-- Footer Links | START -->
     	<div id="footerlinks">
         	<div class="centre">
-            	Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> <strong>Base Hotel</strong><span><a href="http://themeforest.net/item/base-hotel-responsive-booking-gallery-template/10517095?ref=Klayemore" target="_blank">Template By KM</a></span>
+            	Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> <strong>Classic Alpine</strong><span><a href="/http://www.totallyboundless.com" target="_blank">Totally Boundless</a></span>
             </div>
         </div>
         <!-- Footer Links | END -->
     </footer>
     <!-- Footer | END -->
 </div>
-<script src="system/js/plugins.js"></script>
-<script src="system/js/global.js"></script>
+<script src="/system/js/plugins.js"></script>
+<script src="/system/js/global.js"></script>
 </body>
 </html>

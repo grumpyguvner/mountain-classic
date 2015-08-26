@@ -764,7 +764,7 @@ class PHPMailerTest extends PHPUnit_Framework_TestCase
     <body>
         <h1>PHPMailer does HTML!</h1>
         <p>This is a <strong>test message</strong> written in HTML.<br>
-        Go to <a href="https://github.com/PHPMailer/PHPMailer/">https://github.com/PHPMailer/PHPMailer/</a>
+        Go to <a href="/https://github.com/PHPMailer/PHPMailer/">https://github.com/PHPMailer/PHPMailer/</a>
         for new versions of PHPMailer.</p>
         <p>Thank you!</p>
     </body>

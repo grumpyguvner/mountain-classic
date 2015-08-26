@@ -175,7 +175,7 @@ function tln_getnxtag($body, $offset)
     /**
      * There are 3 kinds of tags:
      * 1. Opening tag, e.g.:
-     *	  <a href="blah">
+     *	  <a href="/blah">
      * 2. Closing tag, e.g.:
      *	  </a>
      * 3. XHTML-style content-less tag, e.g.:

@@ -1,5 +1,5 @@
 /*
-Base Hotel: HTML Template by Klayemore (http://klayemorrison.com)
+Classic Alpine: HTML Template by Klayemore (http://klayemorrison.com)
 
 - All plugins are copyright to their respective owners and have been packed using http://dean.edwards.name/packer/
 - Editable JS is located in global.js

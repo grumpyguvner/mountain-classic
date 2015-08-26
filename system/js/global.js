@@ -1,5 +1,5 @@
 /*
-Base Hotel: HTML Template by Klaye Morrison (http://klayemorrison.com)
+Classic Alpine: HTML Template by Klaye Morrison (http://klayemorrison.com)
 */
 
 /******************** Document Ready ********************/
@@ -262,7 +262,7 @@ $(document).ready(function () {
 		galleryslider();
 	}
 	else {
-		var gallery = 'gallery.html #gallery figure:lt(7) img';
+		var gallery = 'resorts.html #gallery figure:lt(7) img';
 		$('#galleryslider .slider').load(gallery, function() {
 			
 			galleryslider();
@@ -412,7 +412,7 @@ $(document).ready(function () {
             var title = $(this).find('span').html();
 			var pinclone = $(this).find('span').clone();
 			var pintitle = pinclone.text();
-            return title+'<a href="http://www.pinterest.com/pin/create/button/?url='+domain+'&media='+url+'&description='+pintitle+'" target="_blank" data-pin-do="buttonPin" data-pin-config="beside" class="pinit"></a>';
+            return title+'<a href="/http://www.pinterest.com/pin/create/button/?url='+domain+'&media='+url+'&description='+pintitle+'" target="_blank" data-pin-do="buttonPin" data-pin-config="beside" class="pinit"></a>';
         }
     });
 	

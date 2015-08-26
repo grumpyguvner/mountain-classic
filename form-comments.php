@@ -28,8 +28,8 @@ if($continue===true){
 	
 	// Hotel Details
 	
-	$hotel_name = "Base Hotel";
-	$hotel_email = "test@klayemorrison.com";
+	$hotel_name = "Classic Alpine";
+	$hotel_email = "info@classicalpine.com";
 	
 	// Send Email to Hotel
 	
@@ -57,16 +57,15 @@ else {
 }
 ?>
 <!DOCTYPE HTML>
-<!-- Base Hotel: HTML Template by Klaye Morrison (http://klayemorrison.com) -->
 <html>
 <head>
 <meta charset="utf-8">
 <title>Leave a Comment</title>
-<link rel="stylesheet" href="css/classic.css">
-<link class="colour" rel="stylesheet" href="css/colour-classic-ski.css">
+<link rel="stylesheet" href="/css/classic.css">
+<link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<script src="system/js/plugins.js"></script>
-<script src="system/js/global.js"></script>
+<script src="/system/js/plugins.js"></script>
+<script src="/system/js/global.js"></script>
 </head>
 <body>
 <div id="pop" class="popform">

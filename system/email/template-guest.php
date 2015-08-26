@@ -43,7 +43,7 @@ p.intro { font-size:16px !important; line-height:20px !important; }
 <table class="header" cellpadding="0" cellspacing="0" style="border-collapse: collapse;width: 100%; padding:20px 0;">
 	<tr>
     	<td class="logo" style="padding:25px 0 25px 25px;"><img src="http://klayemorrison.com/themes/base/system/images/logo.png" style="border: none;" alt="" /></td>
-        <td class="top" style="padding-right: 25px;font: bold 20px/22px helvetica, arial, sans-serif;text-align: right;">+61 8 3456 7890</td>
+        <td class="top" style="padding-right: 25px;font: bold 20px/22px helvetica, arial, sans-serif;text-align: right;">01444 390 242</td>
     </tr>
 </table>
 <table cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
@@ -55,8 +55,8 @@ p.intro { font-size:16px !important; line-height:20px !important; }
         	<h1 style="margin:0 0 25px; padding:0; font:bold 24px/26px helvetica, arial, sans-serif; color:#000;">Dear [name]</h1>
             <p style=" margin:0 0 30px; padding:0; font:14px/22px helvetica, arial, sans-serif; color:#000;">Thank you for your booking request, we will get back to you as soon as possible. To avoid missing out, please give us a call so that we may assist you sooner.</p>
             <p style=" margin:0 0 30px; padding:0; font:14px/22px helvetica, arial, sans-serif; color:#000;">Kind Regards,<br />
-            <strong>Base Hotel Reservations</strong></p>
-            <p style=" margin:0 0 30px; padding:0;"><a href="http://klayemorrison.com/themes/base/specials.html"><img src="http://klayemorrison.com/themes/base/system/email/specials.jpg" class="specials" style="border:none; width:100%; height:auto;" alt="" /></a></p>
+            <strong>Classic Alpine Reservations</strong></p>
+            <p style=" margin:0 0 30px; padding:0;"><a href="/http://klayemorrison.com/themes/base/specials.html"><img src="http://klayemorrison.com/themes/base/system/email/specials.jpg" class="specials" style="border:none; width:100%; height:auto;" alt="" /></a></p>
         </td>
     </tr>
     <tr>
