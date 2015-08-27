@@ -60,6 +60,7 @@ Classic Alpine: HTML Template by Klaye Morrison (http://klayemorrison.com)
 17.0 ----- Sitewide Extras
 	17.1 - Footer Testimonials
 	17.2 - Recent Blog Posts
+	17.3 - TTA Membership
 18.0 ----- Promo Popup
 19.0 ----- Footer
 	19.1 - Subscribe / Social
@@ -81,6 +82,7 @@ html, body { width:100%; height:100%; }
 #container { padding-top:110px; position:relative; background:#FFF; }
 .centre { max-width:1200px; margin:auto; padding:0 50px; position:relative; }
 a img { border:none; }
+ol li { list-style: decimal; margin-bottom: 10px; }
 
 /******************** 1.0 - Navigation ********************/
 
@@ -118,11 +120,11 @@ a img { border:none; }
 #language li a { width:22px; height:20px; padding:10px 0 0 32px; font:bold 10px/10px 'GothamLight', sans-serif; color:#000; letter-spacing:1px; display:block; background:#EEE; border-top:1px solid #D5D5D5; }
 #language li:first-child a { background:#EEE !important; border:none; box-shadow:1px 1px 0 rgba(0,0,0,.12); cursor:default; }
 #language li a:before { content:""; width:14px; height:11px; position:absolute; left:10px; }
-#language li.en a:before { background:url(../images/flag-en.png); }
-#language li.cn a:before { background:url(../images/flag-cn.png); }
-#language li.fr a:before { background:url(../images/flag-fr.png); }
-#language li.de a:before { background:url(../images/flag-de.png); }
-#language li.it a:before { background:url(../images/flag-it.png); }
+#language li.en a:before { background:url(/system/images/flag-en.png); }
+#language li.cn a:before { background:url(/system/images/flag-cn.png); }
+#language li.fr a:before { background:url(/system/images/flag-fr.png); }
+#language li.de a:before { background:url(/system/images/flag-de.png); }
+#language li.it a:before { background:url(/system/images/flag-it.png); }
 #language:hover { max-height:200px; }
 .hover #language li a:hover { background:#DDD; }
 
@@ -146,7 +148,7 @@ a img { border:none; }
 
 /* 2.1 - Header */
 
-#header { width:100%; background:url(../images/header.jpg) top center; background-size:100%; position:relative; }
+#header { width:100%; background:url(/img/header.jpg) top center; background-size:100%; position:relative; }
 #header:before { content:""; width:100%; height:100%; position:absolute; top:0; opacity:.9; }
 #header .h1 { width:100%; padding:20px 0 20px; text-align:center; position:relative; }
 #header h1 { font:italic 40px/45px 'GothamLight', sans-serif; color:#FFF; display:inline-block; }
@@ -186,7 +188,7 @@ form button { padding:0; cursor:pointer; border:none; }
 .list .item .details .title { margin-bottom:15px; font:bold 25px/30px 'GothamLight', sans-serif; text-transform:none; letter-spacing:0; }
 .list .item .details .title span { margin-top:2px; font:bold 14px/22px 'GothamLight', sans-serif; letter-spacing:1px; text-transform:uppercase; display:block; }
 .list .item .details:before { content:""; width:100%; height:100%; position:absolute; top:0; right:0; opacity:.9; }
-.list .item .details .button { width:150px; padding:0; box-sizing:border-box; position:absolute; bottom:50px; left:50%; margin-left:-75px; }
+.list .item .details .button { width:250px; padding:0; box-sizing:border-box; position:absolute; bottom:50px; left:50%; margin-left:-125px; }
 .list .item img { width:100%; height:auto; display:block; position:relative; }
 .hover .list .item .details:hover .button { background-color:#FFF; }
 .hover .list .item .details:hover .button span, .hover #rooms.list.grid .item .container:hover .button span { transform:translateY(-100%); -webkit-transform:translateY(-100%); -ms-transform:translateY(-100%); }
@@ -253,7 +255,7 @@ form button { padding:0; cursor:pointer; border:none; }
 
 /******************** 3.0 - Content ********************/
 
-main { font:14px/25px 'GothamLight', sans-serif; color:#000; letter-spacing:.4px; background:top left repeat-x; }
+main { font:18px/25px 'GothamLight', sans-serif; color:#000; letter-spacing:.4px; background:top left repeat-x; }
 main .centre { padding:70px 50px; }
 main .centre:after { content:""; clear:both; display:block; }
 main h1, main h2 { margin-bottom:30px; font:600 22px/30px 'GothamLight', sans-serif; text-transform:uppercase; letter-spacing:1.2px; position:relative; }
@@ -267,7 +269,7 @@ main p.credit a { border-color:#DDD; }
 main p.credit i { margin-right:2px; font-size:16px; position:relative; top:2px; }
 main hr { margin-bottom:30px; border:1px solid #FFF; border-bottom:1px solid #E5E5E5; }
 main ul { margin-bottom:30px; }
-main ul li { list-style:circle; }
+main ul li { list-style:circle; margin-bottom: 10px; }
 main ul ul { margin-left:18px; }
 main table { max-width:100%; margin:35px 0; background:#F5F5F5; box-shadow:1px 1px 0 rgba(0,0,0,.12); border-radius:5px; overflow:hidden; border-collapse:collapse; position:relative; }
 main table:before { content:""; width:100%; height:5px; position:absolute; top:0; left:0; z-index:1; }
@@ -288,6 +290,8 @@ main blockquote { width:40%; margin:0 25px 25px -30px; font:bold 25px/30px 'Goth
 
 .usp { margin:45px 0; }
 .usp .box { width:100%; padding:15px 0; }
+.usp .box a { color: #000; }
+.usp .box a:hover, .usp .box a:active, .usp .box a:visited { color: #000; }
 .usp .box i { width:70px; height:70px; font-size:22px; line-height:66px; text-align:center; border:2px solid; border-radius:100px; box-sizing:border-box; margin:0 30px 0 0; float:left; }
 .usp .box p { margin:0; }
 .usp h3 { margin-bottom:3px; font:700 16px/22px 'GothamLight', sans-serif; letter-spacing:.5px; text-transform:none; }
@@ -300,7 +304,7 @@ main blockquote { width:40%; margin:0 25px 25px -30px; font:bold 25px/30px 'Goth
 
 /* 3.2 - Feature List */
 
-#featurelist { width:100%; text-align:left; background:#EEE url(../images/fadeback.jpg); background-size:100% 100%; position:relative; box-shadow:0 1px 0 rgba(0,0,0,.07),inset 0 1px 0 0 rgba(0,0,0,0.05),inset 0 20px 10px -17px rgba(0,0,0,0.05); z-index:1; }
+#featurelist { width:100%; text-align:left; background:#EEE url(/system/images/fadeback.jpg); background-size:100% 100%; position:relative; box-shadow:0 1px 0 rgba(0,0,0,.07),inset 0 1px 0 0 rgba(0,0,0,0.05),inset 0 20px 10px -17px rgba(0,0,0,0.05); z-index:1; }
 #featurelist .centre { z-index:1; }
 #featurelist h2 { margin:-20px 0 55px; font:italic 40px/45px 'GothamLight', sans-serif; text-align:center; letter-spacing:-.3px; text-transform:none; }
 #featurelist #slideshow:before { background:rgba(255,255,255,.2); border-color:rgba(0,0,0,.12); }
@@ -555,7 +559,7 @@ main #map { min-height:400px; }
 #cboxNext:hover, #cboxPrevious:hover { background-color:rgba(255,255,255,.15); }
 #colorbox.formpopper #cboxClose { display:none; }
 #colorbox.formpopper #cboxContent { margin-top:20px; }
-.pinit { width:70px; height:30px; background:#C82828 url(../images/pinit.png) top center no-repeat; position:absolute; top:-9px; right:0; border-radius:5px; display:block; cursor:pointer; }
+.pinit { width:70px; height:30px; background:#C82828 url(/system/images/pinit.png) top center no-repeat; position:absolute; top:-9px; right:0; border-radius:5px; display:block; cursor:pointer; }
 .pinit:hover { background-color:#FFF; background-position:bottom; }
 
 /******************** 11.0 - Blog ********************/
@@ -615,7 +619,7 @@ article .button { margin:7px 30px 10px 0; float:left; }
 
 /******************** 12.0 - Guest Book ********************/
 
-#guestbook { margin:0; padding:60px 55px 0; display:block; background:#EEE url(../images/fadeback.jpg) !important; background-size:100% 100% !important; position:relative; box-shadow:0 1px 0 rgba(0,0,0,.07); z-index:1; }
+#guestbook { margin:0; padding:60px 55px 0; display:block; background:#EEE url(/system/images/fadeback.jpg) !important; background-size:100% 100% !important; position:relative; box-shadow:0 1px 0 rgba(0,0,0,.07); z-index:1; }
 #guestbook .centre { width:100%; padding-left:0; padding-right:0; max-width:none; display:inline-block; text-align:center; }
 #guestbook .button { line-height:46px; border:2px solid #FFF; box-sizing:border-box; }
 #guestbook .pagination { margin-top:-20px; }
@@ -802,6 +806,15 @@ aside #specials.list .details:after { content:""; width:calc(100% - 12px); heigh
 .date .day { height:27px; font:italic 23px/22px 'GothamLight', sans-serif; text-align:center; display:block; }
 .hover .recent a:hover { background:#D5D5D5; }
 
+/* 17.3 - TTA Membership */
+
+#tta { width:100%; background:#000; color:#FFF; font:12px/19px 'GothamLight', sans-serif; letter-spacing:.4px; float:right; box-shadow:1px 1px 0 rgba(0,0,0,.15); }
+#tta .details {display: table; margin: auto; }
+#tta a.logo { display: table-cell; }
+#tta p { display: table-cell; vertical-align: middle; padding-left: 10px; }
+#tta a, #tta a:active, #tta a:hover, #tta a:visited { color: #fff; }
+#tta a:hover { text-decoration: underline; }
+
 /******************** 18.0 - Promo Popup ********************/
 
 #pop { width:450px; background:#FFF; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); box-shadow:0 0 1px rgba(0,0,0,.3),0 0 30px rgba(0,0,0,.3); outline:9999px solid rgba(30,30,30,.6); display:none; z-index:999999; }
@@ -834,7 +847,7 @@ footer { width:100%; background:#444; }
 #footer .news { width:calc(100% - 480px); margin-top:-20px; position:absolute; top:50%; display:table; z-index:3; }
 #footer .news .title { width:247px; padding-top:3px; font:italic 26px/30px 'GothamLight', sans-serif; color:#FFF; display:table-cell; vertical-align:top; }
 #footer .news .title span { vertical-align:top; }
-#footer .news .title:before { content:""; width:43px; height:41px; margin:-4px 12px 0 0; background:url(../images/envelope.png); display:inline-block; }
+#footer .news .title:before { content:""; width:43px; height:41px; margin:-4px 12px 0 0; background:url(/system/images/envelope.png); display:inline-block; }
 #footer .news .subscribe { padding-right:50px; display:table-cell; }
 #footer .news form { width:100%; float:left; }
 #footer .news form input { width:70%; height:40px; font:14px/40px 'GothamLight', sans-serif; color:#000; letter-spacing:.4px; text-indent:12px; border-radius:5px 0 0 5px; border:none; float:left; }
@@ -854,7 +867,7 @@ footer { width:100%; background:#444; }
 
 /* 19.3 - Footer Links */
 
-#footerlinks { width:100%; height:70px; font:10px/70px 'GothamLight', sans-serif; color:#FFF; letter-spacing:1.5px; text-align:center; text-transform:uppercase; background:#000; clear:both; }
+#footerlinks { width:100%; font:10px/20px 'GothamLight', sans-serif; color:#FFF; letter-spacing:1.5px; text-align:center; text-transform:uppercase; background:#000; clear:both; }
 #footerlinks strong { margin-right:12px; font-weight:800; }
 #footerlinks a { padding:10px 12px; color:#FFF; }
 #footerlinks a:last-child { padding-right:0; }

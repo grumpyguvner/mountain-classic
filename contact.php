@@ -111,24 +111,7 @@ else {
                         <li><a href="/resorts/crest-voland.html">Crest Voland</a></li>
                     </ul>
                 </li>
-                <li><a href="/about.html">Our Services</a>
-                	<ul>
-                    	<li><a href="/about.html">Private Transfers</a></li>
-                        <li><a href="/restaurant.php">Ski &amp; Boot Hire</a></li>
-                        <li><a href="/specials.html">Ski Passes</a></li>
-                        <li><a href="/gallery.html">Ski Lessons</a></li>
-<!--                        <li><a href="/location.html">Location</a></li>
-                        <li><a href="/blog.html">Our Blog <i class="fa fa-chevron-right"></i></a>
-                        	<ul>
-                                <li><a href="/blog.html">Blog Overview</a></li>
-                                <li><a href="/blog-post.html">Blog Post</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/guest-book.html">Guest Book</a></li>
-                        <li><a href="/faqs.html">FAQs</a></li>
-                        <li><a class="promopopup">Promo Popup</a></li> -->
-                    </ul>
-                </li>
+                <li><a href="/about-us.html">About Us</a></li>
                 <li><a href="/contact.php">Contact</a></li>
             </ul>
             <a id="pull"><i class="fa fa-bars"></i></a>
@@ -165,7 +148,7 @@ else {
     	<div class="centre">
             <!-- Contact Form | START -->
         	<div id="contact">
-            	<img src="http://dummyimage.com/1200x400" width="1200" height="400" alt="" />
+            	<img src="/img/contact/contact.jpg" width="1200" height="400" alt="" />
                 <?=$alert;?>
                 <form name="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                 	<?php
@@ -179,71 +162,24 @@ else {
                         <div class="field mandatory"><input name="contact-phone" type="text" placeholder="Phone Number" id="contact-phone" value="<?php echo isset($_POST['contact-phone'])?$_POST['contact-phone']:""; ?>" /></div>
                     </div>
                     <div class="col">
-                        <div class="field calendar"><input name="contact-arrival" type="text" placeholder="Arrival Date" id="contact-arrival" value="<?php if (isset($_POST['arrival']) && !empty($_POST['arrival'])) { echo $_POST['arrival']; } else { echo isset($_POST['contact-arrival'])?$_POST['contact-arrival']:""; } ?>" readonly /><i class="fa fa-calendar-o"></i></div>
-                        <div class="field calendar"><input name="contact-departure" type="text" placeholder="Departure Date" id="contact-departure" value="<?php if (isset($_POST['departure']) && !empty($_POST['departure'])) { echo $_POST['departure']; } else { echo isset($_POST['contact-departure'])?$_POST['contact-departure']:""; } ?>" readonly /><i class="fa fa-calendar-o"></i></div>
-                        <div class="select">
-                        	<select name="contact-rooms" id="contact-rooms" class="infants">
-                                <option <?php if ($rooms == 1 ) echo 'selected'; ?> value="1">1 Room</option>
-                                <option <?php if ($rooms == 2 ) echo 'selected'; ?> value="2" >2 Rooms</option>
-                                <option <?php if ($rooms == 3 ) echo 'selected'; ?> value="3" >3 Rooms</option>
-                            </select>
-                            <select name="contact-adults" id="contact-adults" class="adults">
-                                <option <?php if ($adults == 1 ) echo 'selected'; ?> value="1" >1 Adult</option>
-                                <option <?php if ($adults == 2 ) echo 'selected'; ?> value="2">2 Adults</option>
-                                <option <?php if ($adults == 3 ) echo 'selected'; ?> value="3" >3 Adults</option>
-                                <option <?php if ($adults == 4 ) echo 'selected'; ?> value="4" >4 Adults</option>
-                                <option <?php if ($adults == 5 ) echo 'selected'; ?> value="5" >5 Adults</option>
-                            </select>
-                            <select name="contact-children" id="contact-children" class="children">
-                                <option <?php if ($children == 0 ) echo 'selected'; ?> value="0">0 Children</option>
-                                <option <?php if ($children == 1 ) echo 'selected'; ?> value="1" >1 Child</option>
-                                <option <?php if ($children == 2 ) echo 'selected'; ?> value="2" >2 Children</option>
-                                <option <?php if ($children == 3 ) echo 'selected'; ?> value="3" >3 Children</option>
-                                <option <?php if ($children == 4 ) echo 'selected'; ?> value="4" >4 Children</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col">
                         <div class="field"><textarea name="contact-message" placeholder="Message" id="contact-message"><?php echo isset($_POST['contact-message'])?$_POST['contact-message']:""; ?></textarea></div>
                     </div>
-                    <button name="send" value="sendform"><span data-hover="Send Booking Request">Send Booking Request</span></button>
+                    <div class="col">
+                        <div class="contact">
+                            <p><strong class="phone">01444 390 242</strong><br />
+                            <a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br /><br />
+                            <i class="fa fa-map-marker"></i> 2A Albert Street, Tring<br />
+                            Hertfordshire, HP23 6AU</p>
+                        </div>
+                    </div>
+                    <button name="send" value="sendform"><span data-hover="Send Contact Request">Send Contact Request</span></button>
                 </form>
             </div>
             <!-- Contact Form | END -->
             <h2 style="margin:0;"><strong>01444 390 242</strong></h2>
             <p style="margin:0;"><a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br />
-            2A Albert Street, Tring, Hertfordshire, HP23 6AU<br />
-            <a href="/location.html"><i class="fa fa-map-marker"></i> Explore Our Location</a></p>
+            2A Albert Street, Tring, Hertfordshire, HP23 6AU</p>
         </div>
-        <!-- Google Map | START -->
-        <script>
-			function initialize() {
-			var latlng = new google.maps.LatLng(-31.957482,115.856868);
-			var myOptions = {
-			zoom: 14,
-			center: latlng,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			scrollwheel: false
-			};
-			var map = new google.maps.Map(document.getElementById('googlemap'), myOptions);
-			var marker = new google.maps.Marker({
-			position: latlng, 
-			map: map,
-			icon: "system/images/point.png"
-			});
-			}
-			function loadScript() {
-			var script = document.createElement('script');
-			script.type = 'text/javascript';
-			script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&'+'callback=initialize';
-			document.body.appendChild(script);
-			}
-			window.onload = loadScript;
-		</script>
-    	<div id="map">
-            <div id="googlemap"></div>
-        </div>
-        <!-- Google Map | END -->
     </main>
     <!-- Content | END -->
     <!-- Sitewide Extras | START -->
@@ -254,10 +190,7 @@ else {
                 <div class="back">
                     <div class="slider">
                     	<div class="item">
-                        	<img alt="" src="http://dummyimage.com/1200x400" width="1200" height="400" />
-                            <div class="details">
-                                <a href="/specials.html">
-                                    <div class="title">Early Booking Discount<br />
+                        	<img alt="" src="/img/early-booking-discount/early-booking-discount.jpg" width="1200" height="400" />                             <div class="details">                                 <a href="/specials.html">                                     <div class="title">Early Booking Discount<br />
                                     <span>Until 15th October</span></div>
                                     <p>Book before the 15th October 2015 and we will give you a 5% discount on the cost of your holiday.<br />
                                     <div class="button"><span data-hover="Read More">Read More</span></div>
@@ -303,8 +236,7 @@ else {
                 <p class="title">Welcome to the Classic Alpine Ski Club</p>
                 <p>Hitting your 50’s or 60’s is the beginning of something new and exciting. It’s the moment to start indulging yourself a bit more; to visit new places, try out new things or quite simply do more of what you enjoy.</p>
                 <p>For many people skiing is a part of that and whether you are a beginner or have more experience, it is so much more fun when you share your time in the mountains with small groups of other like-minded people.</p>
-                <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</span></div>
-                <a href="/guest-book.html" class="button"><span data-hover="Read More">Read More</span></a>
+                <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</strong></div>                 <a href="/about-us.html" class="button"><span data-hover="Read More">Read More</span></a>
             </div>
             <!-- Footer Testimonial | END -->
         </div>
@@ -341,7 +273,7 @@ else {
                 <div class="dark"></div>
             </div>
         </div>
-    	<!-- Footer Links | START -->
+    	<!-- TTA Member | START -->         <div id="tta">             <div class="centre">                 <div class="details">                 <a class="logo" target="_blank" href="http://www.traveltrust.co.uk" title="Travel Trust Association"><img src="http://images.traveltrust.co.uk/MemberLogos/memberlogocolour.aspx?tta=Q3634" alt="Travel Trust Association" style="border: 0;"></a>                 <p>Classic Alpine is a member of the <a target="_blank" href="http://www.traveltrust.co.uk" title="Travel Trust Association">Travel Trust Association</a>                     which offers you 100% Financial Protection.<br>Check the TTA website to <a target="_blank" href="http://www.traveltrust.co.uk/default.aspx?tabid=148" title="Travel Trust Association">verify our TTA membership</a>.</p>                 </div>             </div>         </div>         <!-- TTA Member | END -->         <!-- Footer Links | START -->
     	<div id="footerlinks">
         	<div class="centre">
             	<span>Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> <strong>Classic Alpine</strong></span> <span><a href="/http://www.totallyboundless.com" target="_blank">Built by Totally Boundless</a></span>

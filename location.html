@@ -1,22 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Classic Alpine - Location</title>
-<link rel="stylesheet" href="/css/classic.css">
-<link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
-<link class="pattern" rel="stylesheet" href="/css/pattern-classic-ski.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Classic Alpine - Location</title>
+    <link rel="stylesheet" href="/css/classic.css">
+    <link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
+    <link class="pattern" rel="stylesheet" href="/css/pattern-classic-ski.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body class="fullwidth">
 <!-- Navigation | START -->
 <div id="nav">
     <div class="centre">
-        <a href="/index.html" class="logo"><img alt="" src="/img/logo.png" /></a>
+        <a href="/index.html" class="logo"><img alt="" src="/img/logo.png"/></a>
         <nav>
             <ul>
-            	<li class="mobile"><a href="/contact.php" class="navbook">Book Online</a></li>
+                <li class="mobile"><a href="/contact.php" class="navbook">Book Online</a></li>
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/resorts.html">Our Resorts</a>
                     <ul>
@@ -49,35 +49,36 @@
 </div>
 <!-- Navigation | END -->
 <div id="container">
-	<!-- Header | START -->
-	<header>
-    	<!-- Google Map | START -->
+    <!-- Header | START -->
+    <header>
+        <!-- Google Map | START -->
         <script>
-			function initialize() {
-			var latlng = new google.maps.LatLng(-31.957482,115.856868);
-			var myOptions = {
-			zoom: 14,
-			center: latlng,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			scrollwheel: false
-			};
-			var map = new google.maps.Map(document.getElementById('googlemap'), myOptions);
-			var marker = new google.maps.Marker({
-			position: latlng, 
-			map: map,
-			icon: "system/images/point.png"
-			});
-			}
-			function loadScript() {
-			var script = document.createElement('script');
-			script.type = 'text/javascript';
-			script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&'+'callback=initialize';
-			document.body.appendChild(script);
-			}
-			window.onload = loadScript;
-		</script>
-    	<div id="map">
-        	<img alt="" src="/system/images/spacer.png" width="1500" height="700" class="spacer" />
+            function initialize() {
+                var latlng = new google.maps.LatLng(-31.957482, 115.856868);
+                var myOptions = {
+                    zoom: 14,
+                    center: latlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    scrollwheel: false
+                };
+                var map = new google.maps.Map(document.getElementById('googlemap'), myOptions);
+                var marker = new google.maps.Marker({
+                    position: latlng,
+                    map: map,
+                    icon: "system/images/point.png"
+                });
+            }
+            function loadScript() {
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+                document.body.appendChild(script);
+            }
+            window.onload = loadScript;
+        </script>
+        <div id="map">
+            <img alt="" src="/system/images/spacer.png" width="1500" height="700" class="spacer"/>
+
             <div id="googlemap"></div>
         </div>
         <!-- Google Map | END -->
@@ -124,16 +125,25 @@
     <!-- Header | END -->
     <!-- Content | START -->
     <main>
-    	<div class="centre">
+        <div class="centre">
             <div id="content">
                 <h1><strong>Absolute Waterfront Luxury</strong></h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet
+                    nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula
+                    sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
+                    mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper
+                    est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis,
+                    gravida id, est.</p>
+
                 <p><strong>2A Albert Street, Tring, Hertfordshire, HP23 6AU</strong></p>
-                <a href="/https://www.google.com/maps/dir/Current+Location/-31.957482,115.856868" target="_blank" class="button"><span data-hover="Get Directions">Get Directions</span></a>
+                <a href="/https://www.google.com/maps/dir/Current+Location/-31.957482,115.856868" target="_blank"
+                   class="button"><span data-hover="Get Directions">Get Directions</span></a>
                 <!-- Slideshow | START -->
                 <div id="slideshow">
                     <div class="slider">
-                        <div class="item"><img alt="" src="http://dummyimage.com/1200x600" width="1200" height="600" /></div>
+                        <div class="item"><img alt="" src="http://dummyimage.com/1200x600" width="1200" height="600"/>
+                        </div>
                     </div>
                     <div class="nav">
                         <a class="prev"><i class="fa fa-chevron-left"></i></a>
@@ -145,18 +155,25 @@
         </div>
         <!-- Feature List | START -->
         <section id="featurelist">
-        	<div class="centre">
-            	<h2>Things to do in Perth</h2>
+            <div class="centre">
+                <h2>Things to do in Perth</h2>
+
                 <div class="featurelist">
                     <div class="feature">
-                        <img alt="" src="http://dummyimage.com/120x120" width="120" height="120" class="thumb" />
+                        <img alt="" src="http://dummyimage.com/120x120" width="120" height="120" class="thumb"/>
+
                         <div class="details">
                             <h3>The Bell Tower</h3>
-                            <p>Barrack Square Riverside Drive<br /><br />
-                            <a href="#"><i class="fa fa-external-link"></i> Visit Website</a></p>
+
+                            <p>Barrack Square Riverside Drive<br/><br/>
+                                <a href="#"><i class="fa fa-external-link"></i> Visit Website</a></p>
                         </div>
                         <div class="copy">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.
+                                Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel,
+                                nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas,
+                                ante et vulputate volutpat.</p>
                         </div>
                     </div>
                 </div>
@@ -167,20 +184,23 @@
     <!-- Content | END -->
     <!-- Sitewide Extras | START -->
     <div id="extras">
-    	<div class="centre">
+        <div class="centre">
             <!-- List Items (Specials Slider) | START -->
             <div id="specials" class="list">
                 <div class="back">
                     <div class="slider">
-                    	<div class="item">
-                        	<img alt="" src="http://dummyimage.com/1200x400" width="1200" height="400" />
-                            <div class="details">
-                                <a href="/specials.html">
-                                    <div class="title">Early Booking Discount<br />
+                        <div class="item">
+                            <img alt="" src="/img/early-booking-discount/early-booking-discount.jpg" width="1200"
+                                 height="400"/>
+
+                            <div class="details"><a href="/specials.html">
+                                <div class="title">Early Booking Discount<br/>
                                     <span>Until 15th October</span></div>
-                                    <p>Book before the 15th October 2015 and we will give you a 5% discount on the cost of your holiday.<br />
-                                    <div class="button"><span data-hover="Read More">Read More</span></div>
-                                </a>
+                                <p>Book before the 15th October 2015 and we will give you a 5% discount on the cost of
+                                    your holiday.<br/>
+
+                                <div class="button"><span data-hover="Read More">Read More</span></div>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -196,6 +216,7 @@
                         <span class="day">15</span>
                     </div>
                     <p class="title">Beginners&apos; Group</p>
+
                     <p>We will be running a beginners&apos; group in Les Saises from Jan 15th to Jan 22nd 2016.</p>
                 </a>
                 <a href="/off-piste-technique-group.html">
@@ -204,7 +225,9 @@
                         <span class="day">22</span>
                     </div>
                     <p class="title">Off-Piste Technique Group</p>
-                    <p>Advanced skiiers might like our off-piste technique group in Flaine from Jan 22nd to Jan 29th 2016.</p>
+
+                    <p>Advanced skiiers might like our off-piste technique group in Flaine from Jan 22nd to Jan 29th
+                        2016.</p>
                 </a>
                 <a href="/beginners-group.html">
                     <div class="date">
@@ -212,18 +235,27 @@
                         <span class="day">13</span>
                     </div>
                     <p class="title">Beginners&apos; Group</p>
-                    <p>We will be back in Les Saises from Mar 13th to Mar 20th 2016 with another beginners&apos; group.</p>
+
+                    <p>We will be back in Les Saises from Mar 13th to Mar 20th 2016 with another beginners&apos;
+                        group.</p>
                 </a>
             </div>
             <!-- Recent Blog Posts | END -->
             <!-- Footer Testimonial | START -->
             <div class="footertestimonial">
                 <i class="fa fa-quote-left"></i>
+
                 <p class="title">Welcome to the Classic Alpine Ski Club</p>
-                <p>Hitting your 50’s or 60’s is the beginning of something new and exciting. It’s the moment to start indulging yourself a bit more; to visit new places, try out new things or quite simply do more of what you enjoy.</p>
-                <p>For many people skiing is a part of that and whether you are a beginner or have more experience, it is so much more fun when you share your time in the mountains with small groups of other like-minded people.</p>
-                <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</span></div>
-                <a href="/guest-book.html" class="button"><span data-hover="Read More">Read More</span></a>
+
+                <p>Hitting your 50’s or 60’s is the beginning of something new and exciting. It’s the moment to start
+                    indulging yourself a bit more; to visit new places, try out new things or quite simply do more of
+                    what you enjoy.</p>
+
+                <p>For many people skiing is a part of that and whether you are a beginner or have more experience, it
+                    is so much more fun when you share your time in the mountains with small groups of other like-minded
+                    people.</p>
+
+                <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</strong></div>                 <a href="/about-us.html" class="button"><span data-hover="Read More">Read More</span></a>
             </div>
             <!-- Footer Testimonial | END -->
         </div>
@@ -231,39 +263,42 @@
     <!-- Sitewide Extras | END -->
     <!-- Footer | START -->
     <footer>
-    	<div id="footer">
-        	<div class="centre">
+        <div id="footer">
+            <div class="centre">
                 <!-- Subscribe / Social | START -->
                 <div class="news">
-                	<div class="title"><span>News & Offers</span></div>
+                    <div class="title"><span>News & Offers</span></div>
                     <div class="subscribe">
                         <form>
-                            <input name="email" type="text" placeholder="Your email address" />
+                            <input name="email" type="text" placeholder="Your email address"/>
                             <button><span data-hover="Sign Up">Sign Up</span></button>
                         </form>
                     </div>
                     <div class="social">
-                    	<a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
                         <a href="#" title="Pinterest"><i class="fa fa-pinterest-p"></i></a>
                     </div>
                 </div>
                 <!-- Subscribe / Social | END -->
-            	<!-- Contact Details | START -->
-            	<div class="contact">
-                	<p><strong class="phone">01444 390 242</strong><br />
-                    <a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br /><br />
-                    <i class="fa fa-map-marker"></i> 2A Albert Street, Tring<br />
-                    Hertfordshire, HP23 6AU</p>
+                <!-- Contact Details | START -->
+                <div class="contact">
+                    <p><strong class="phone">01444 390 242</strong><br/>
+                        <a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br/><br/>
+                        <i class="fa fa-map-marker"></i> 2A Albert Street, Tring<br/>
+                        Hertfordshire, HP23 6AU</p>
                 </div>
                 <!-- Contact Details | END -->
                 <div class="dark"></div>
             </div>
         </div>
-    	<!-- Footer Links | START -->
-    	<div id="footerlinks">
-        	<div class="centre">
-            	<span>Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> <strong>Classic Alpine</strong></span> <span><a href="/http://www.totallyboundless.com" target="_blank">Built by Totally Boundless</a></span>
+        <!-- TTA Member | START -->         <div id="tta">             <div class="centre">                 <div class="details">                 <a class="logo" target="_blank" href="http://www.traveltrust.co.uk" title="Travel Trust Association"><img src="http://images.traveltrust.co.uk/MemberLogos/memberlogocolour.aspx?tta=Q3634" alt="Travel Trust Association" style="border: 0;"></a>                 <p>Classic Alpine is a member of the <a target="_blank" href="http://www.traveltrust.co.uk" title="Travel Trust Association">Travel Trust Association</a>                     which offers you 100% Financial Protection.<br>Check the TTA website to <a target="_blank" href="http://www.traveltrust.co.uk/default.aspx?tabid=148" title="Travel Trust Association">verify our TTA membership</a>.</p>                 </div>             </div>         </div>         <!-- TTA Member | END -->         <!-- Footer Links | START -->
+        <div id="footerlinks">
+            <div class="centre">
+                <span>Copyright &copy;
+                    <script>var d = new Date();
+                    document.write(d.getFullYear());</script> <strong>Classic Alpine</strong></span> <span><a
+                    href="/http://www.totallyboundless.com" target="_blank">Built by Totally Boundless</a></span>
             </div>
         </div>
         <!-- Footer Links | END -->
@@ -272,13 +307,16 @@
 </div>
 <!-- Promo Popup | START -->
 <div id="pop">
-	<img alt="" src="http://dummyimage.com/400x150" width="400" height="150" />
+    <img alt="" src="http://dummyimage.com/400x150" width="400" height="150"/>
+
     <div class="container">
-        <p class="title"><strong>Our latest special offers,</strong><br />
-        straight to your inbox</p>
+        <p class="title"><strong>Our latest special offers,</strong><br/>
+            straight to your inbox</p>
+
         <p>Stay up to date with the latest specials from Classic Alpine. Subscribe and save on your next stay.</p>
+
         <form>
-            <input name="email" type="text" placeholder="Your email address" />
+            <input name="email" type="text" placeholder="Your email address"/>
             <button><span data-hover="Subscribe">Subscribe</span></button>
         </form>
         <p class="close closepop"><a>Continue browsing site</a></p>

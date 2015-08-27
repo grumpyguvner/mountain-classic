@@ -94,24 +94,7 @@ else {
                         <li><a href="/resorts/crest-voland.html">Crest Voland</a></li>
                     </ul>
                 </li>
-                <li><a href="/about.html">Our Services</a>
-                	<ul>
-                    	<li><a href="/about.html">Private Transfers</a></li>
-                        <li><a href="/restaurant.php">Ski &amp; Boot Hire</a></li>
-                        <li><a href="/specials.html">Ski Passes</a></li>
-                        <li><a href="/gallery.html">Ski Lessons</a></li>
-<!--                        <li><a href="/location.html">Location</a></li>
-                        <li><a href="/blog.html">Our Blog <i class="fa fa-chevron-right"></i></a>
-                        	<ul>
-                                <li><a href="/blog.html">Blog Overview</a></li>
-                                <li><a href="/blog-post.html">Blog Post</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/guest-book.html">Guest Book</a></li>
-                        <li><a href="/faqs.html">FAQs</a></li>
-                        <li><a class="promopopup">Promo Popup</a></li> -->
-                    </ul>
-                </li>
+                <li><a href="/about-us.html">About Us</a></li>
                 <li><a href="/contact.php">Contact</a></li>
             </ul>
             <a id="pull"><i class="fa fa-bars"></i></a>
@@ -508,8 +491,8 @@ else {
                 <p class="title">Welcome to the Classic Alpine Ski Club</p>
                 <p>Hitting your 50’s or 60’s is the beginning of something new and exciting. It’s the moment to start indulging yourself a bit more; to visit new places, try out new things or quite simply do more of what you enjoy.</p>
                 <p>For many people skiing is a part of that and whether you are a beginner or have more experience, it is so much more fun when you share your time in the mountains with small groups of other like-minded people.</p>
-                <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</span></div>
-                <a href="/guest-book.html" class="button"><span data-hover="Read More">Read More</span></a>
+                <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</strong></div>
+                <a href="/about-us.html" class="button"><span data-hover="Read More">Read More</span></a>
             </div>
             <!-- Footer Testimonial | END -->
         </div>
@@ -546,7 +529,22 @@ else {
                 <div class="dark"></div>
             </div>
         </div>
-    	<!-- Footer Links | START -->
+        <!-- TTA Member | START -->
+        <div id="tta">
+            <div class="centre">
+                <div class="details"><a class="logo" target="_blank" href="http://www.traveltrust.co.uk"
+                                        title="Travel Trust Association"><img
+                        src="http://images.traveltrust.co.uk/MemberLogos/memberlogocolour.aspx?tta=Q3634"
+                        alt="Travel Trust Association" style="border: 0;"></a>
+
+                    <p>Classic Alpine is a member of the <a target="_blank" href="http://www.traveltrust.co.uk"
+                                                            title="Travel Trust Association">Travel Trust
+                        Association</a> which offers you 100% Financial Protection.<br>Check the TTA website to <a
+                            target="_blank" href="http://www.traveltrust.co.uk/default.aspx?tabid=148"
+                            title="Travel Trust Association">verify our TTA membership</a>.</p></div>
+            </div>
+        </div>
+        <!-- TTA Member | END -->         <!-- Footer Links | START -->
     	<div id="footerlinks">
         	<div class="centre">
             	<span>Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> <strong>Classic Alpine</strong></span> <span><a href="/http://www.totallyboundless.com" target="_blank">Built by Totally Boundless</a></span>
