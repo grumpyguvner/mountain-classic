@@ -388,8 +388,6 @@ else {
                     </div>
                     <div class="social">
                     	<a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" title="Pinterest"><i class="fa fa-pinterest-p"></i></a>
                     </div>
                 </div>
                 <!-- Subscribe / Social | END -->
