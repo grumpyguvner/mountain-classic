@@ -167,7 +167,7 @@ else {
                     <div class="col">
                         <div class="contact">
                             <p><strong class="phone">01444 390 242</strong><br />
-                            <a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br /><br />
+                            <a href="mailto:info@classicalpine.com">info@classicalpine.com</a><br /><br />
                             <i class="fa fa-map-marker"></i> 2A Albert Street, Tring<br />
                             Hertfordshire, HP23 6AU</p>
                         </div>
@@ -177,7 +177,7 @@ else {
             </div>
             <!-- Contact Form | END -->
             <h2 style="margin:0;"><strong>01444 390 242</strong></h2>
-            <p style="margin:0;"><a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br />
+            <p style="margin:0;"><a href="mailto:info@classicalpine.com">info@classicalpine.com</a><br />
             2A Albert Street, Tring, Hertfordshire, HP23 6AU</p>
         </div>
     </main>
@@ -265,7 +265,7 @@ else {
             	<!-- Contact Details | START -->
             	<div class="contact">
                 	<p><strong class="phone">01444 390 242</strong><br />
-                    <a href="/mailto:info@classicalpine.com">info@classicalpine.com</a><br /><br />
+                    <a href="mailto:info@classicalpine.com">info@classicalpine.com</a><br /><br />
                     <i class="fa fa-map-marker"></i> 2A Albert Street, Tring<br />
                     Hertfordshire, HP23 6AU</p>
                 </div>

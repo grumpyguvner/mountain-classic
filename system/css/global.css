@@ -186,7 +186,7 @@ form button { padding:0; cursor:pointer; border:none; }
 .list .item .details .button { width:150px; padding:0; box-sizing:border-box; position:absolute; bottom:50px; left:50%; margin-left:-75px; }
 .list .item img { width:100%; height:auto; display:block; position:relative; }
 .hover .list .item .details:hover .button { background-color:#FFF; }
-.hover .list .item .details:hover .button span, .hover #rooms.list.grid .item .container:hover .button span { transform:translateY(-100%); -webkit-transform:translateY(-100%); -ms-transform:translateY(-100%); }
+.hover .list .item .details:hover .button span, .hover .rooms.list.grid .item .container:hover .button span { transform:translateY(-100%); -webkit-transform:translateY(-100%); -ms-transform:translateY(-100%); }
 .hover .list .item.listhover:hover img { transform:scale(1.04); }
 
 /* 2.5 - Check Rates Banner */
@@ -380,31 +380,31 @@ main blockquote { width:40%; margin:0 25px 25px -30px; font:bold 25px/30px 'Open
 
 /* 5.1 - List Items (Rooms) */
 
-#rooms.list { margin:0 0 62px; }
-#rooms.list .item { margin-bottom:30px; }
-#rooms.list .item:before { content:""; width:calc(100% + 10px); height:calc(100% + 10px); border:1px solid #E5E5E5; background:#FFF; position:absolute; top:-6px; left:-6px; }
-#rooms.list .item a { color:#000; }
-#rooms.list .item .details:before { background:#EEE; }
-#rooms.list .item .imgcontainer { width:100%; height:100%; position:relative; overflow:hidden; }
-#rooms.list.grid { margin:0 -15px 32px; }
-#rooms.list.grid .item { width:33.33%; padding:0 15px; float:left; position:relative; box-sizing:border-box; }
-#rooms.list.grid .item a { padding:13px 30px; }
-#rooms.list.grid .item .container { width:100%; height:100%; position:relative; }
-#rooms.list.grid .item img { cursor:pointer; }
-#rooms.list.grid .item .details { width:100%; height:80px; top:auto; bottom:0; overflow:hidden; }
-#rooms.list.grid .item .details .title span { margin-top:0; font-size:12px; opacity:.5; }
-#rooms.list.grid .item .details p { opacity:0; }
-#rooms.list.grid .item .details .button { bottom:20px; opacity:0; }
-#rooms.list.grid:after { content:""; display:block; clear:both; }
-#rooms.list.grid .item:before { display:none; }
-#rooms.list.grid .item .container:before { content:""; width:calc(100% + 10px); height:calc(100% + 10px); border:1px solid #E5E5E5; background:#FFF; position:absolute; top:-6px; left:-6px; }
-.hover #rooms.list .item .details:hover .button { background-color:#000; }
-.hover #rooms.list.grid .item .container:hover .details { height:100%; }
-.hover #rooms.list.grid .item .container:hover .details a { padding:30px; }
-.hover #rooms.list.grid .item .container:hover .details .title span { margin-top:2px; font-size:14px; opacity:1; }
-.hover #rooms.list.grid .item .container:hover .details p { opacity:1; }
-.hover #rooms.list.grid .item .container:hover img { transform:scale(1.1); }
-.hover #rooms.list.grid .item .container:hover .button { bottom:40px; opacity:1; }
+.rooms.list { margin:0 0 62px; }
+.rooms.list .item { margin-bottom:30px; }
+.rooms.list .item:before { content:""; width:calc(100% + 10px); height:calc(100% + 10px); border:1px solid #E5E5E5; background:#FFF; position:absolute; top:-6px; left:-6px; }
+.rooms.list .item a { color:#000; }
+.rooms.list .item .details:before { background:#EEE; }
+.rooms.list .item .imgcontainer { width:100%; height:100%; position:relative; overflow:hidden; }
+.rooms.list.grid { margin:0 -15px 32px; }
+.rooms.list.grid .item { width:33.33%; padding:0 15px; float:left; position:relative; box-sizing:border-box; }
+.rooms.list.grid .item a { padding:13px 30px; }
+.rooms.list.grid .item .container { width:100%; height:100%; position:relative; }
+.rooms.list.grid .item img { cursor:pointer; }
+.rooms.list.grid .item .details { width:100%; height:80px; top:auto; bottom:0; overflow:hidden; }
+.rooms.list.grid .item .details .title span { margin-top:0; font-size:12px; opacity:.5; }
+.rooms.list.grid .item .details p { opacity:0; }
+.rooms.list.grid .item .details .button { bottom:20px; opacity:0; }
+.rooms.list.grid:after { content:""; display:block; clear:both; }
+.rooms.list.grid .item:before { display:none; }
+.rooms.list.grid .item .container:before { content:""; width:calc(100% + 10px); height:calc(100% + 10px); border:1px solid #E5E5E5; background:#FFF; position:absolute; top:-6px; left:-6px; }
+.hover .rooms.list .item .details:hover .button { background-color:#000; }
+.hover .rooms.list.grid .item .container:hover .details { height:100%; }
+.hover .rooms.list.grid .item .container:hover .details a { padding:30px; }
+.hover .rooms.list.grid .item .container:hover .details .title span { margin-top:2px; font-size:14px; opacity:1; }
+.hover .rooms.list.grid .item .container:hover .details p { opacity:1; }
+.hover .rooms.list.grid .item .container:hover img { transform:scale(1.1); }
+.hover .rooms.list.grid .item .container:hover .button { bottom:40px; opacity:1; }
 
 /* 5.2 - Video */
 
@@ -870,9 +870,9 @@ footer { width:100%; background:#444; }
 
 /******************** 21.0 - Transitions ********************/
 
-a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .list .item .button, #galleryslider .nav, .list a span, #featured .nav, aside #specials.list .details:before, #slideshow .nav, .feature, #menu li, #menu li .price, #menu li.featured:before, .feature .thumb, #rooms.list.grid .item .details .title span, #faqs li, #faqs li h2:after { transition:.2s ease; }
-.button span, button span, #nav .book span, #language, #rooms.list.grid .item .details, #rooms.list.grid .item .details p, #rooms.list.grid .item a, .pinit, #faqs li:before, #faqs li:after, #faqs li h2 { transition:.4s ease !important; }
-#rooms.list.grid .item .container img, aside #specials.list .item img, .list .item img, .special .img img, article img { transition:1.2s ease; }
+a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .list .item .button, #galleryslider .nav, .list a span, #featured .nav, aside #specials.list .details:before, #slideshow .nav, .feature, #menu li, #menu li .price, #menu li.featured:before, .feature .thumb, .rooms.list.grid .item .details .title span, #faqs li, #faqs li h2:after { transition:.2s ease; }
+.button span, button span, #nav .book span, #language, .rooms.list.grid .item .details, .rooms.list.grid .item .details p, .rooms.list.grid .item a, .pinit, #faqs li:before, #faqs li:after, #faqs li h2 { transition:.4s ease !important; }
+.rooms.list.grid .item .container img, aside #specials.list .item img, .list .item img, .special .img img, article img { transition:1.2s ease; }
 
 /******************** 22.0 - Responsive ********************/
 
@@ -931,15 +931,15 @@ aside #specials.list .nav { margin-right:100px; }
 #check .field select { display:block; }
 #check .field.select i { display:none; }
 .list .item .details p { display:none; }
-#rooms.list.grid .item a { padding:20px !important; }
-#rooms.list.grid .item img { cursor:default; }
-#rooms.list.grid .item .details { height:auto !important; position:relative; }
-#rooms.list.grid .item .details p { display:none; }
-#rooms.list.grid .item .details .button { margin-left:0; position:relative; bottom:auto !important; left:0; opacity:1; }
-#rooms.list.grid .item .details .title { font-size:22px; line-height:25px; }
-#rooms.list.grid .item .details .title span { margin-top:2px; font-size:14px; opacity:1; }
-#rooms.list.grid .item .details { width:100%; position:relative; background:#EEE; }
-#rooms.list.grid .item .details:before { opacity:1; background:top left; opacity:.035; }
+.rooms.list.grid .item a { padding:20px !important; }
+.rooms.list.grid .item img { cursor:default; }
+.rooms.list.grid .item .details { height:auto !important; position:relative; }
+.rooms.list.grid .item .details p { display:none; }
+.rooms.list.grid .item .details .button { margin-left:0; position:relative; bottom:auto !important; left:0; opacity:1; }
+.rooms.list.grid .item .details .title { font-size:22px; line-height:25px; }
+.rooms.list.grid .item .details .title span { margin-top:2px; font-size:14px; opacity:1; }
+.rooms.list.grid .item .details { width:100%; position:relative; background:#EEE; }
+.rooms.list.grid .item .details:before { opacity:1; background:top left; opacity:.035; }
 #galleryslider .nav, #slideshow .nav { opacity:1; bottom:50px; }
 #gallery span { display:none; }
 #footer .news .title span { display:none; }
@@ -973,8 +973,8 @@ main p.credit { margin:0 0 28px; }
 main table { width:100%; margin:25px 0; font-size:12px; line-height:16px; }
 main table td, main table th { padding:12px 3px; }
 main table th { padding:22px 5px 17px; font-size:11px; line-height:15px; }
-#rooms.list { margin:0 0 30px; }
-#rooms.list.grid { margin:0 -15px 0; }
+.rooms.list { margin:0 0 30px; }
+.rooms.list.grid { margin:0 -15px 0; }
 #content { margin:0 0 -30px; }
 .usp { margin:0; }
 .usp .box { padding:10px 0; }
@@ -1057,10 +1057,10 @@ main blockquote { margin-left:0; }
 .ui-datepicker { width:700px !important; margin-top:-180px !important; margin-left:-350px !important; }
 .ui-datepicker td span, .ui-datepicker td a { padding:10px 5px; }
 .list .item a { padding:20px; }
-#rooms.list .item .details { width:100%; position:relative; background:#EEE; }
-#rooms.list .item .details:before { opacity:1; background:top left; opacity:.035; }
-#rooms.list .item .details .button { position:relative; bottom:auto; margin-left:0; left:0; }
-#rooms.list.grid .item { width:50%; }
+.rooms.list .item .details { width:100%; position:relative; background:#EEE; }
+.rooms.list .item .details:before { opacity:1; background:top left; opacity:.035; }
+.rooms.list .item .details .button { position:relative; bottom:auto; margin-left:0; left:0; }
+.rooms.list.grid .item { width:50%; }
 #specials.list .item .details { width:100%; height:220px; }
 #specials.list .item img { width:660px; min-width:100%; height:220px; }
 #specials.list .nav { width:100%; margin:0 !important; right:0; }
@@ -1106,7 +1106,7 @@ aside #specials.list .nav { width:100%; margin:0; right:0; }
 #featured .item .details { margin-top:-25px !important; }
 #featured .item img { width:618px; min-width:100%; }
 #featured .item .title { display:none !important; }
-#rooms.list.grid .item { width:100%; }
+.rooms.list.grid .item { width:100%; }
 #stats figure { width:100%; }
 #stats figure:not(:first-of-type):before { display:none; }
 }

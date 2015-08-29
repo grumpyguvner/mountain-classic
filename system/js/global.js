@@ -124,7 +124,7 @@ $(document).ready(function () {
 		
 	// List Items Hover
 	
-	$('#specials.list .details, #rooms.list .details').hover(
+	$('#specials.list .details, .rooms.list .details').hover(
 		function () {
 			$(this).parent().addClass('listhover');
 		}, 
