@@ -278,6 +278,10 @@ main table td, main table th { padding:12px 30px; background:#F5F5F5; }
 main table th { padding:22px 30px 17px; font:800 14px/20px 'GothamLight', sans-serif; letter-spacing:1.2px; text-transform:uppercase; background:#FFF; position:relative; }
 main table th:before { content:""; width:100%; height:100%; position:absolute; top:0; left:0; opacity:.2; }
 main table tr:nth-child(odd) td { background:#EEE; }
+
+main table a {
+	color: #000;
+}
 main blockquote { width:40%; margin:0 25px 25px -30px; font:bold 25px/30px 'GothamLight', sans-serif; float:left; }
 #content { margin:0 0 -38px; }
 #content .button { margin-top:5px; margin-bottom:30px; }
