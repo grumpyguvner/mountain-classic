@@ -94,7 +94,15 @@ else {
                         <li><a href="/resorts/crest-voland.html">Crest-Voland</a></li>
                     </ul>
                 </li>
-                <li><a href="/dates-and-prices.html">Book Here</a>                 <ul>                     <li><a href="/dates-and-prices.html">Dates &amp; Prices</a></li>                     <li><a href="/how-to-book.html">How To Book</a></li>                     <li><a href="/downloads/booking-form.pdf">Booking Form</a></li>                     <li><a href="/booking-conditions.html">Booking Conditions</a></li>                 </ul>                 </li><li><a href="/determining-your-ski-level.html">Find Your Ski Level</a></li><li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/dates-and-prices.html">Book Here</a>
+                    <ul>
+                        <li><a href="/dates-and-prices.html">Dates &amp; Prices</a></li>
+                        <li><a href="/how-to-book.html">How To Book</a></li>
+                        <li><a href="/downloads/booking-form.pdf">Booking Form</a></li>
+                        <li><a href="/booking-conditions.html">Booking Conditions</a></li>
+                    </ul>
+                </li><li><a href="/determining-your-ski-level.html">Find Your Ski Level</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
                 <li><a href="/contact.php">Contact</a></li>
             </ul>
             <a id="pull"><i class="fa fa-bars"></i></a>
@@ -465,7 +473,7 @@ else {
                         <span class="day">15</span>
                     </div>
                     <p class="title">Beginners&apos; Group</p>
-                    <p>We will be running a beginners&apos; group in Les Saises from Jan 15th to Jan 22nd 2016.</p>
+                    <p>We will be running a beginners&apos; group in Les Saisies from Jan 15th to Jan 22nd 2016.</p>
                 </a>
                 <a href="/off-piste-technique-group.html">
                 	<div class="date">
@@ -481,7 +489,7 @@ else {
                         <span class="day">13</span>
                     </div>
                     <p class="title">Beginners&apos; Group</p>
-                    <p>We will be back in Les Saises from Mar 13th to Mar 20th 2016 with another beginners&apos; group.</p>
+                    <p>We will be back in Les Saisies from Mar 13th to Mar 20th 2016 with another beginners&apos; group.</p>
                 </a>
             </div>
             <!-- Recent Blog Posts | END -->
@@ -521,7 +529,7 @@ else {
                 	<p><strong class="phone">01444 390 242</strong><br />
                     <a href="mailto:info@classicalpine.com">info@classicalpine.com</a><br /><br />
                     <i class="fa fa-map-marker"></i> 2A Albert Street, Tring<br />
-                    Hertfordshire, HP23 6AY</p>
+                    Hertfordshire, HP23 6AU</p>
                 </div>
                 <!-- Contact Details | END -->
                 <div class="dark"></div>

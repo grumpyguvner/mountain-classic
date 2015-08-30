@@ -313,7 +313,11 @@ main blockquote { width:40%; margin:0 25px 25px -30px; font:bold 25px/30px 'Goth
 .usp .box a { color: #000; }
 .usp .box a:hover, .usp .box a:active, .usp .box a:visited { color: #000; }
 .usp .box i { width:70px; height:70px; font-size:22px; line-height:66px; text-align:center; border:2px solid; border-radius:100px; box-sizing:border-box; margin:0 30px 0 0; float:left; }
-.usp .box p { margin:0; }
+
+.usp .box p {
+	margin: 0;
+	height: 75px;
+}
 .usp h3 { margin-bottom:3px; font:700 16px/22px 'GothamLight', sans-serif; letter-spacing:.5px; text-transform:none; }
 .usp .box:after, .usp:after { content:""; display:block; clear:both; }
 .fullwidth .usp { margin:45px 0 0; }
@@ -692,7 +696,15 @@ article .button { margin:7px 30px 10px 0; float:left; }
 
 /******************** 14.0 - Contact ********************/
 
-#contact { margin-top:-125px; margin-bottom:70px; border-radius:5px; overflow:hidden; position:relative; background:#FFF; box-shadow:0 0 1px rgba(0,0,0,.2),0 0 10px rgba(0,0,0,.15); }
+#contact {
+	margin-top: 0px;
+	margin-bottom: 70px;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	background: #FFF;
+	box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 0 10px rgba(0, 0, 0, .15);
+}
 #contact:before { content:""; width:100%; height:100%; position:absolute; top:0; left:0; opacity:.2 !important; }
 #contact:after { content:""; clear:both; display:block; }
 #contact * { position:relative; z-index:1; }

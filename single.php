@@ -340,7 +340,7 @@ else {
             <!-- Contact Form | END -->
             <h2 style="margin:0;"><strong>01444 390 242</strong></h2>
             <p style="margin:0;"><a href="mailto:info@classicalpine.com">info@classicalpine.com</a><br />
-            2A Albert Street, Tring, Hertfordshire, HP23 6AY</p>
+            2A Albert Street, Tring, Hertfordshire, HP23 6AU</p>
         </div>
         <!-- Google Map | START -->
         <script>
