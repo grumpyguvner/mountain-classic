@@ -91,44 +91,15 @@
                                 Hertfordshire, HP23 6AU</p>
                         </div>
                     </div>
-                    <button><span data-hover="Send Booking Request">Send Booking Request</span></button>
+                    <button name="send" value="sendform"><span
+                            data-hover="Send Contact Request">Send Contact Request</span></button>
                 </form>
             </div>
             <!-- Contact Form | END -->
             <h2 style="margin:0;"><strong>01444 390 242</strong></h2>
             <p style="margin:0;"><a href="mailto:info@classicalpine.com">info@classicalpine.com</a><br />
-                2A Albert Street, Tring, Hertfordshire, HP23 6AU<br/>
-            <a href="/location.html"><i class="fa fa-map-marker"></i> Explore Our Location</a></p>
+                2A Albert Street, Tring, Hertfordshire, HP23 6AU</p>
         </div>
-        <!-- Google Map | START -->
-        <script>
-			function initialize() {
-			var latlng = new google.maps.LatLng(-31.957482,115.856868);
-			var myOptions = {
-			zoom: 14,
-			center: latlng,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			scrollwheel: false
-			};
-			var map = new google.maps.Map(document.getElementById('googlemap'), myOptions);
-			var marker = new google.maps.Marker({
-			position: latlng, 
-			map: map,
-			icon: "system/images/point.png"
-			});
-			}
-			function loadScript() {
-			var script = document.createElement('script');
-			script.type = 'text/javascript';
-			script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&'+'callback=initialize';
-			document.body.appendChild(script);
-			}
-			window.onload = loadScript;
-		</script>
-    	<div id="map">
-            <div id="googlemap"></div>
-        </div>
-        <!-- Google Map | END -->
     </main>
     <!-- Content | END -->
     <!-- Sitewide Extras | START -->

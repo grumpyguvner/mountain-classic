@@ -47,7 +47,7 @@ if($continue===true){
 	$mail = new PHPMailer;
 	$mail->setFrom($hotel_email, $hotel_name);
 	$mail->addAddress($_POST['contact-email'], $_POST['contact-name']);
-	$mail->Subject = $hotel_name.' Booking Request';
+	$mail->Subject = $hotel_name.' Contact Request';
 	$mail->MsgHTML($message);
 	$mail->IsHTML(true);
 	$mail->send();
@@ -68,13 +68,14 @@ if($continue===true){
 	$mail = new PHPMailer;
 	$mail->setFrom($_POST['contact-email'], $_POST['contact-name']);
 	$mail->addAddress($hotel_email, $hotel_name);
-	$mail->Subject = 'Booking Request from '.$_POST['contact-name'];
+	$mail->Subject = 'Contact Request from '.$_POST['contact-name'];
 	$mail->MsgHTML($message);
 	if (!$mail->send()) {
-		$alert = "<div class='alert error'><i class='fa fa-exclamation-circle'></i> <strong>There was an error, please call us to make a booking.</strong></div>";
+		$alert = "<div class='alert error'><i class='fa fa-exclamation-circle'></i> <strong>We are sorry but there was an error, please try again later or call us.</strong></div>";
 	}
 	else {
-		$alert = "<div class='alert success'><i class='fa fa-check-circle'></i> <strong>Thank you for your booking request, we will get back to you as soon as possible.</strong> To avoid missing out, please give us a call so that we may assist you sooner.</div>";
+		$alert = "<div class='alert success'><i class='fa fa-check-circle'></i> <strong>Thank you for your contact request, we will get back to you as soon as possible.</strong> To avoid missing out, please give us a call so that we may assist you sooner.</div>";
+		$alert = "<div class='alert error'><i class='fa fa-exclamation-circle'></i> <strong>We are sorry but there was an error, please try again later or call us.</strong></div>";
 	}
 }
 else {
@@ -87,7 +88,7 @@ else {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Classic Alpine - Contact</title>
+<title>Classic Alpine - Contact Us, Get in touch with Classic Alpine</title>
 <link rel="stylesheet" href="/css/classic.css">
 <link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
 <link class="pattern" rel="stylesheet" href="/css/pattern-classic-ski.css">
@@ -118,7 +119,8 @@ else {
                         <li><a href="/downloads/booking-form.pdf">Booking Form</a></li>
                         <li><a href="/booking-conditions.html">Booking Conditions</a></li>
                     </ul>
-                </li><li><a href="/determining-your-ski-level.html">Find Your Ski Level</a></li>
+                </li>
+                <li><a href="/determining-your-ski-level.html">Find Your Ski Level</a></li>
                 <li><a href="/about-us.html">About Us</a></li>
                 <li><a href="/contact.php">Contact</a></li>
             </ul>
@@ -145,7 +147,7 @@ else {
 	<header>
     	<div id="header">
         	<div class="h1">
-                <h1><span>Contact</span>
+                <h1><span>Contact Us</span>
                 <span class="tagline">Get in touch with Classic Alpine</span></h1>
             </div>
         </div>
@@ -159,15 +161,10 @@ else {
             	<img src="/img/contact/contact.jpg" width="1200" height="400" alt="" />
                 <?=$alert;?>
                 <form name="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                	<?php
-					(isset($_POST["rooms"])) ? $rooms = $_POST["rooms"] : $rooms = $_POST["contact-rooms"];
-					(isset($_POST["adults"])) ? $adults = $_POST["adults"] : $adults  = $_POST["contact-adults"];
-					(isset($_POST["children"])) ? $children = $_POST["children"] : $children = $_POST["contact-children"];
-					?>
                     <div class="col">
-                        <div class="field mandatory"><input name="contact-name" type="text" placeholder="Your Name" id="contact-name" value="<?php echo isset($_POST['contact-name'])?$_POST['contact-name']:""; ?>" /></div>
-                        <div class="field mandatory"><input name="contact-email" type="text" placeholder="Email Address" id="contact-email" value="<?php echo isset($_POST['contact-email'])?$_POST['contact-email']:""; ?>" /></div>
-                        <div class="field mandatory"><input name="contact-phone" type="text" placeholder="Phone Number" id="contact-phone" value="<?php echo isset($_POST['contact-phone'])?$_POST['contact-phone']:""; ?>" /></div>
+                        <div class="field mandatory"><input name="contact-name" type="text" placeholder="Your Name" id="contact-name" value="<?php echo isset($_POST['contact-name'])?$_POST['contact-name']:''; ?>" /></div>
+                        <div class="field mandatory"><input name="contact-email" type="text" placeholder="Email Address" id="contact-email" value="<?php echo isset($_POST['contact-email'])?$_POST['contact-email']:''; ?>" /></div>
+                        <div class="field mandatory"><input name="contact-phone" type="text" placeholder="Phone Number" id="contact-phone" value="<?php echo isset($_POST['contact-phone'])?$_POST['contact-phone']:''; ?>" /></div>
                     </div>
                     <div class="col">
                         <div class="field"><textarea name="contact-message" placeholder="Message" id="contact-message"><?php echo isset($_POST['contact-message'])?$_POST['contact-message']:""; ?></textarea></div>
