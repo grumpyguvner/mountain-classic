@@ -50,7 +50,7 @@ if($continue===true){
 	$mail->Subject = $hotel_name.' Contact Request';
 	$mail->MsgHTML($message);
 	$mail->IsHTML(true);
-	$mail->send();
+//	$mail->send();
 	
 	// Send Email to Hotel
 	
@@ -70,13 +70,13 @@ if($continue===true){
 	$mail->addAddress($hotel_email, $hotel_name);
 	$mail->Subject = 'Contact Request from '.$_POST['contact-name'];
 	$mail->MsgHTML($message);
-	if (!$mail->send()) {
-		$alert = "<div class='alert error'><i class='fa fa-exclamation-circle'></i> <strong>We are sorry but there was an error, please try again later or call us.</strong></div>";
-	}
-	else {
-		$alert = "<div class='alert success'><i class='fa fa-check-circle'></i> <strong>Thank you for your contact request, we will get back to you as soon as possible.</strong> To avoid missing out, please give us a call so that we may assist you sooner.</div>";
-		$alert = "<div class='alert error'><i class='fa fa-exclamation-circle'></i> <strong>We are sorry but there was an error, please try again later or call us.</strong></div>";
-	}
+//	if (!$mail->send()) {
+//		$alert = "<div class='alert error'><i class='fa fa-exclamation-circle'></i> <strong>We are sorry but there was an error, please try again later or call us.</strong></div>";
+//	}
+//	else {
+//		$alert = "<div class='alert success'><i class='fa fa-check-circle'></i> <strong>Thank you for your contact request, we will get back to you as soon as possible.</strong> To avoid missing out, please give us a call so that we may assist you sooner.</div>";
+//	}
+    $alert = "<div class='alert error'><i class='fa fa-exclamation-circle'></i> <strong>We are sorry but there was an error, please try again later or call us.</strong></div>";
 }
 else {
 	$alert = "<div class='alert validate'><i class='fa fa-exclamation-circle'></i> Please fill out the following fields: <strong>".$validation."</strong></div>";
