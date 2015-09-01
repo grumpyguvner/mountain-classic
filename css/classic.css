@@ -840,11 +840,26 @@ aside #specials.list .details:after { content:""; width:calc(100% - 12px); heigh
 
 /* 17.3 - TTA Membership */
 
-#tta { width:100%; background:#000; color:#FFF; font:12px/19px 'GothamLight', sans-serif; letter-spacing:.4px; float:right; box-shadow:1px 1px 0 rgba(0,0,0,.15); }
+#tta {
+	width: 100%;
+	background: #fff;
+	color: #000;
+	font: 12px/19px 'GothamLight', sans-serif;
+	letter-spacing: .4px;
+	float: right;
+	box-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+}
 #tta .details {display: table; margin: auto; }
 #tta a.logo { display: table-cell; }
+
+#tta a.logo img {
+	padding: 10px;
+}
 #tta p { display: table-cell; vertical-align: middle; padding-left: 10px; }
-#tta a, #tta a:active, #tta a:hover, #tta a:visited { color: #fff; }
+
+#tta a, #tta a:active, #tta a:hover, #tta a:visited {
+	color: #000;
+}
 #tta a:hover { text-decoration: underline; }
 
 /******************** 18.0 - Promo Popup ********************/

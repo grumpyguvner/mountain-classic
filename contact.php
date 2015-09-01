@@ -279,13 +279,32 @@ else {
                 <div class="dark"></div>
             </div>
         </div>
-    	<!-- TTA Member | START -->         <div id="tta">             <div class="centre">                 <div class="details">                 <a class="logo" target="_blank" href="http://www.traveltrust.co.uk" title="Travel Trust Association"><img src="http://images.traveltrust.co.uk/MemberLogos/memberlogocolour.aspx?tta=Q3634" alt="Travel Trust Association" style="border: 0;"></a>                 <p>Classic Alpine is a member of the <a target="_blank" href="http://www.traveltrust.co.uk" title="Travel Trust Association">Travel Trust Association</a>                     which offers you 100% Financial Protection.<br>Check the TTA website to <a target="_blank" href="http://www.traveltrust.co.uk/default.aspx?tabid=148" title="Travel Trust Association">verify our TTA membership</a>.</p>                 </div>             </div>         </div>         <!-- TTA Member | END -->         <!-- Footer Links | START -->
+    	<!-- Footer Links | START -->
     	<div id="footerlinks">
         	<div class="centre">
-            	<span>Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> <strong>Classic Alpine</strong></span> <span><a href="/http://www.totallyboundless.com" target="_blank">Built by Totally Boundless</a></span>
+            	<span>Copyright &copy; <script>var d = new Date(); document.write(d.getFullYear());</script> <strong>Classic Alpine</strong></span> <span><a href="http://www.totallyboundless.com" target="_blank">Built by Totally Boundless</a></span>
             </div>
         </div>
         <!-- Footer Links | END -->
+        <!-- TTA Member | START -->
+        <div id="tta">
+            <div class="centre">
+                <div class="details">
+                    <a class="logo" target="_blank" href="http://www.traveltrust.co.uk"
+                       title="Travel Trust Association">
+                        <img src="http://images.traveltrust.co.uk/MemberLogos/memberlogocolour.aspx?tta=Q3634"
+                             alt="Travel Trust Association" style="border: 0;">
+                    </a>
+
+                    <p>Classic Alpine is a member of the <a target="_blank" href="http://www.traveltrust.co.uk"
+                                                            title="Travel Trust Association">Travel Trust
+                        Association</a> which offers you 100% Financial Protection.<br>Check the TTA website to <a
+                            target="_blank" href="http://www.traveltrust.co.uk/default.aspx?tabid=148"
+                            title="Travel Trust Association">verify our TTA membership</a>.</p>
+                </div>
+            </div>
+        </div>
+        <!-- TTA Member | END -->
     </footer>
     <!-- Footer | END -->
 </div>
