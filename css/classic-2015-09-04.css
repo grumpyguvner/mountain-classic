@@ -188,7 +188,20 @@ form button { padding:0; cursor:pointer; border:none; }
 .list { margin-bottom:70px; position:relative; }
 .list .item { position:relative; }
 .list .item a { width:100%; height:100%; padding:40px; color:#FFF; display:block; position:absolute; top:0; left:0; box-sizing:border-box; }
+
+#specials.list .item a {
+	width: 80%;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .list .item .details { width:380px; height:100%; font:14px/25px 'GothamLight', sans-serif; text-align:center; letter-spacing:.4px; position:absolute; top:0; right:0; z-index:1; }
+
+#specials.list .item .details a p {
+	font: 14px/25px 'GothamLight', sans-serif;
+	color: #FFF;
+}
 .list .item .details * { position:relative; z-index:1; }
 .list .item .details .title { margin-bottom:15px; font:bold 25px/30px 'GothamLight', sans-serif; text-transform:none; letter-spacing:0; }
 .list .item .details .title span { margin-top:2px; font:bold 14px/22px 'GothamLight', sans-serif; letter-spacing:1px; text-transform:uppercase; display:block; }
