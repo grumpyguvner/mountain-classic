@@ -4422,6 +4422,10 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         display: none;
     }
 
+    #specials.list .item .details .text {
+        display: none;
+    }
+
     #testimonials figure {
         width: 50%;
     }
