@@ -396,7 +396,7 @@ else {
                                     <a href="/specials.html">
                                         <div class="title">Early Booking Discount<br />
                                         <span>Until 15th October</span></div>
-                                        <p>Book before the 15th October 2015 and we will give you a 5% discount on the cost of your holiday.</p>
+                                        <div class="text">Book before the 15th October 2015 and we will give you a 5% discount on the cost of your holiday.</div>
                                         <div class="button"><span data-hover="Read More">Read More</span></div>
                                     </a>
                                 </div>
