@@ -88,7 +88,7 @@ else {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Classic Alpine - Experience Luxury</title>
-<link rel="stylesheet" href="/css/classic-1509040914.css">
+<link rel="stylesheet" href="/css/classic-1509040930.css">
 <link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
 <link class="pattern" rel="stylesheet" href="/css/pattern-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
