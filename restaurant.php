@@ -445,7 +445,7 @@ else {
         	<!-- Footer Testimonial | START -->
             <div class="footertestimonial">
             	<i class="fa fa-quote-left"></i>
-                <p class="title">Welcome to the Classic Alpine Ski Club</p>
+                <p class="title">Welcome to the Classic&nbsp;Alpine&nbsp;Ski&nbsp;Club</p>
                 <p>Hitting your 50’s or 60’s is the beginning of something new and exciting. It’s the moment to start indulging yourself a bit more; to visit new places, try out new things or quite simply do more of what you enjoy.</p>
                 <p>For many people skiing is a part of that and whether you are a beginner or have more experience, it is so much more fun when you share your time in the mountains with small groups of other like-minded people.</p>
                 <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</strong></div>

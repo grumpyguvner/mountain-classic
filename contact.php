@@ -89,7 +89,7 @@ else {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Classic Alpine - Contact Us, Get in touch with Classic Alpine</title>
-<link rel="stylesheet" href="/css/classic.css">
+<link rel="stylesheet" href="/css/classic-1509040629.css">
 <link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
 <link class="pattern" rel="stylesheet" href="/css/pattern-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -101,7 +101,7 @@ else {
         <a href="/index.html" class="logo"><img alt="" src="/img/logo.png" /></a>
         <nav>
             <ul>
-            	<li class="mobile"><a href="/contact.php" class="navbook">Book Online</a></li>
+                <!--            	<li class="mobile"><a href="/contact.php" class="navbook">Book Online</a></li> -->
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/resorts.html">Our Resorts</a>
                 	<ul>
@@ -226,7 +226,7 @@ else {
         	<!-- Footer Testimonial | START -->
             <div class="footertestimonial">
             	<i class="fa fa-quote-left"></i>
-                <p class="title">Welcome to the Classic Alpine Ski Club</p>
+                <p class="title">Welcome to the Classic&nbsp;Alpine&nbsp;Ski&nbsp;Club</p>
                 <p>Hitting your 50’s or 60’s is the beginning of something new and exciting. It’s the moment to start indulging yourself a bit more; to visit new places, try out new things or quite simply do more of what you enjoy.</p>
                 <p>For many people skiing is a part of that and whether you are a beginner or have more experience, it is so much more fun when you share your time in the mountains with small groups of other like-minded people.</p>
                 <div class="author">&ndash; <strong>Helen &amp; Stewart Macintosh</strong></div>                 <a href="/about-us.html" class="button"><span data-hover="Read More">Read More</span></a>
