@@ -107,18 +107,6 @@ else {
             </ul>
             <a id="pull"><i class="fa fa-bars"></i></a>
         </nav>
-        <!-- Languages | START --> <!--
-        <div id="language">
-        	<ul>
-            	<li class="en"><a>EN</a></li>
-                <li class="cn"><a href="#">CN</a></li>
-                <li class="fr"><a href="#">FR</a></li>
-                <li class="de"><a href="#">DE</a></li>
-                <li class="it"><a href="#">IT</a></li>
-            </ul>
-        </div>
-        <!-- Languages | END -->
-        <!-- <a href="/contact.php" class="book"><span data-hover="Book Online">Book Online</span> <i class="fa fa-check-circle"></i></a> -->
         <div class="shadow"></div>
     </div>
 </div>
