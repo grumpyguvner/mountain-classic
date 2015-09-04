@@ -2007,6 +2007,7 @@ main blockquote {
 
 .special .img {
     width: calc(100% - 430px);
+    max-width: 494px;
     float: left;
     position: relative;
 }
