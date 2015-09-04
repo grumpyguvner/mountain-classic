@@ -191,7 +191,7 @@ ol li {
     font-size: 25px;
     position: absolute;
     top: 7px;
-    right: 236px;
+    right: 20px;
     display: none;
     cursor: pointer;
 }
@@ -1149,6 +1149,7 @@ main table {
     border-collapse: collapse;
     position: relative;
     text-align: center;
+    display: block;
 }
 
 main table:before {
@@ -1162,13 +1163,13 @@ main table:before {
 }
 
 main table td, main table th {
-    padding: 12px 30px;
+    padding: 10px 10px;
     background: #F5F5F5;
 }
 
 main table th {
     padding: 22px 30px 17px;
-    font: 800 14px/20px 'GothamLight', sans-serif;
+    font: 800 12px/16px 'GothamLight', sans-serif;
     letter-spacing: 1.2px;
     text-transform: uppercase;
     background: #FFF;
@@ -1185,8 +1186,12 @@ main table th:before {
     opacity: .2;
 }
 
+main table tr td {
+    font: 12px/16px 'GothamLight', sans-serif;
+}
+
 main table tr td:first-child {
-    font: 800 14px/20px 'GothamLight', sans-serif;
+    font: 800 12px/16px 'GothamLight', sans-serif;
 }
 
 main table tr:nth-child(odd) td {
@@ -4617,10 +4622,6 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         right: 20px;
     }
 
-    #pull {
-        right: 20px;
-    }
-
     #language {
         right: 249px;
     }
@@ -5310,10 +5311,6 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         width: 34px;
         text-indent: -9999px;
         right: 65px;
-    }
-
-    #pull {
-        right: 17px;
     }
 
     #header h1 .tagline {
