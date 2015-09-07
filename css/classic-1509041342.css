@@ -2007,7 +2007,7 @@ main blockquote {
 
 .special .img {
     width: calc(100% - 430px);
-    max-width: 494px;
+    max-width: 770px;
     float: left;
     position: relative;
 }
@@ -4548,6 +4548,10 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
 
     .list .item .details p {
         display: none;
+    }
+
+    .special .img {
+        max-width: 494px;
     }
 
     .rooms.list.grid .item a {
