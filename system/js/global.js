@@ -13,8 +13,16 @@ $(document).ready(function () {
 	if (!('ontouchstart' in document.documentElement)) { document.documentElement.className += 'hover'; }
 
 	/******************** Photo Credits **********************************/
+	var cnt;
 	$('img').each(function () {
 		console.log("Credit;" + $(this).data('credit'));
+		if ($(this).data('credit') != 'undefined') {
+			++cnt;
+			$('#credit-' + cnt).css({
+				position: "absolute",
+				bottom: 0, left: 0
+			}).appendTo(this)
+		}
 	});
 	
 	/******************** Navigation & General Layout ********************/
