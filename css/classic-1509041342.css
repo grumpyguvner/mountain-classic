@@ -5233,10 +5233,6 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         line-height: 32px;
     }
 
-    #footer .news .title span {
-        display: inline;
-    }
-
     #footer .news .subscribe {
         padding: 0;
     }
