@@ -1855,11 +1855,11 @@ main blockquote {
 
 #other-rooms .col {
     width: 25%;
-    position: relative;
     float: left;
 }
 
 #other-rooms .col .col-content {
+    position: relative;
     padding: 10px;
 }
 
