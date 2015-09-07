@@ -1297,7 +1297,11 @@ main blockquote {
     box-sizing: border-box;
 }
 
-.fullwidth .usp .box i {
+.fullwidth .usp .box .box-content {
+    margin: 0 10px;
+}
+
+.fullwidth .usp .box .box-content i {
     margin: 0 0 20px;
     float: none;
 }
@@ -4743,18 +4747,6 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
 
     .fullwidth .usp {
         margin: 20px 0 -10px;
-    }
-
-    .fullwidth .usp .box {
-        padding: 0 10px;
-    }
-
-    .fullwidth .usp .box:first-child {
-        padding: 0 20px 0 0;
-    }
-
-    .fullwidth .usp .box:last-child {
-        padding: 0 0 0 20px;
     }
 
     .fullwidth #content .button {
