@@ -15,13 +15,8 @@ $(document).ready(function () {
 	/******************** Photo Credits **********************************/
 	var cnt;
 	$('img').each(function () {
-		console.log("Credit;" + $(this).data('credit'));
 		if ($(this).data('credit') != 'undefined') {
-			++cnt;
-			$('#credit-' + cnt).css({
-				position: "absolute",
-				bottom: 0, left: 0
-			}).after(this);
+			$(this).after("Photo courtesy of " + $(this).data('credit'));
 		}
 	});
 	
