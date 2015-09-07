@@ -115,6 +115,10 @@ a img {
     border: none;
 }
 
+.img-credit {
+    text-align: right;
+    font-size: 10px;
+}
 ol li {
     list-style: decimal;
     margin-bottom: 10px;
