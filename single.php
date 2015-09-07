@@ -380,6 +380,6 @@ else {
     <!-- Footer | END -->
 </div>
 <script src="/system/js/plugins.js"></script>
-<script src="/system/js/global.js"></script>
+<script src="/system/js/global-1509070736.js"></script>
 </body>
 </html>

@@ -74,7 +74,7 @@ else {
 <link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="/system/js/plugins.js"></script>
-<script src="/system/js/global.js"></script>
+<script src="/system/js/global-1509070736.js"></script>
 </head>
 <body>
 <div id="pop" class="popform">
