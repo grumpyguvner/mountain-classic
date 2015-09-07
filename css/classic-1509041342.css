@@ -4611,6 +4611,10 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         display: none;
     }
 
+    #footer .news .title {
+        width: 43px;
+    }
+
     #footer .news .title span {
         display: none;
     }
