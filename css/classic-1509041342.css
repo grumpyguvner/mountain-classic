@@ -4867,6 +4867,7 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
 
     .special .img {
         width: calc(100% - 410px);
+        max-width: 490px;
     }
 
     .special .details {
@@ -5198,6 +5199,7 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
 
     .special .img {
         width: 100%;
+        max-width: 770px;
         margin-bottom: 35px;
     }
 
