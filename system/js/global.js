@@ -11,6 +11,11 @@ $(document).ready(function () {
 	// Desktop Detection - Applies '.hover' class to document if non-touch browser
 	
 	if (!('ontouchstart' in document.documentElement)) { document.documentElement.className += 'hover'; }
+
+	/******************** Photo Credits **********************************/
+	$.each($('img'), function (e) {
+		console.log("Credit;" + e.data('credit'));
+	});
 	
 	/******************** Navigation & General Layout ********************/
 		
