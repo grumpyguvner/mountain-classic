@@ -1849,7 +1849,7 @@ main blockquote {
 
 /* Other Room Type links */
 #other-rooms {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -5523,6 +5523,10 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
 
     .recent, .recent a .title {
         line-height: 18px;
+    }
+
+    #other-rooms .col {
+        width: 50%;
     }
 
     #footer .news .title {
