@@ -1292,18 +1292,9 @@ main blockquote {
 }
 
 .fullwidth .usp .box {
-    width: 33%;
-    padding: 0 15px;
+    width: 33.33%;
     float: left;
     box-sizing: border-box;
-}
-
-.fullwidth .usp .box:first-child {
-    padding: 0 35px 0 0;
-}
-
-.fullwidth .usp .box:last-child {
-    padding: 0 0 0 35px;
 }
 
 .fullwidth .usp .box i {
