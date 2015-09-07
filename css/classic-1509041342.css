@@ -3233,10 +3233,13 @@ article .button {
 
 #contact .col {
     width: 33.33%;
-    padding: 20px;
-    text-align: left;
     float: left;
     box-sizing: border-box;
+}
+
+#contact .col .col-content {
+    padding: 20px;
+    text-align: left;
 }
 
 #contact .field {

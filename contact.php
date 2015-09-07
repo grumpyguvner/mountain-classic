@@ -150,12 +150,16 @@ else {
                 <?=$alert;?>
                 <form name="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                     <div class="col">
+                      <div class="col-content">
                         <div class="field mandatory"><input name="contact-name" type="text" placeholder="Your Name" id="contact-name" value="<?php echo isset($_POST['contact-name'])?$_POST['contact-name']:''; ?>" /></div>
                         <div class="field mandatory"><input name="contact-email" type="text" placeholder="Email Address" id="contact-email" value="<?php echo isset($_POST['contact-email'])?$_POST['contact-email']:''; ?>" /></div>
                         <div class="field mandatory"><input name="contact-phone" type="text" placeholder="Phone Number" id="contact-phone" value="<?php echo isset($_POST['contact-phone'])?$_POST['contact-phone']:''; ?>" /></div>
+                      </div>
                     </div>
                     <div class="col">
+                      <div class="col-content">
                         <div class="field"><textarea name="contact-message" placeholder="Message" id="contact-message"><?php echo isset($_POST['contact-message'])?$_POST['contact-message']:""; ?></textarea></div>
+                      </div>
                     </div>
                     <div class="col">
                         <div class="contact">
