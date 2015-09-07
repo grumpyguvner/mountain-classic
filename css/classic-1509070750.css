@@ -118,6 +118,8 @@ a img {
 .img-credit {
     text-align: right;
     font-size: 10px;
+    background-color: #fff;
+    color: #999;
 }
 ol li {
     list-style: decimal;

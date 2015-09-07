@@ -70,7 +70,7 @@ else {
 <head>
 <meta charset="utf-8">
 <title>Write in Guest Book</title>
-<link rel="stylesheet" href="/css/classic-1509070731.css">
+<link rel="stylesheet" href="/css/classic-1509070750.css">
 <link class="colour" rel="stylesheet" href="/css/colour-classic-ski.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="/system/js/plugins.js"></script>
