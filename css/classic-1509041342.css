@@ -1847,6 +1847,22 @@ main blockquote {
     opacity: 1;
 }
 
+.other-rooms {
+    width: 100%;
+}
+
+.other-rooms div {
+    width: 25%;
+}
+
+.other-rooms span {
+    position: absolute;
+    top: 50%;
+}
+
+.other-rooms img {
+    max-width: 100%;
+}
 /* 5.2 - Video */
 
 #video {
