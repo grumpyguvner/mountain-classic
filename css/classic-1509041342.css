@@ -4546,6 +4546,10 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         display: none;
     }
 
+    .usp .box p {
+        font-size: 14px;
+    }
+
     .special .img {
         max-width: 494px;
     }
