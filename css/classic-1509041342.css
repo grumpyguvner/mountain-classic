@@ -4619,9 +4619,6 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         display: none;
     }
 
-    #footer .news .title {
-        width: 70px;
-    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -5229,12 +5226,6 @@ a, input, button, i, #container, #nav, #nav nav li a:after, #featured .nav, .lis
         margin: 30px 0 80px;
         position: relative;
         top: 0;
-    }
-
-    #footer .news .title {
-        width: 218px;
-        font-size: 25px;
-        line-height: 32px;
     }
 
     #footer .news .subscribe {
