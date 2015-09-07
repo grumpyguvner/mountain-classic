@@ -1272,6 +1272,7 @@ main blockquote {
 .usp .box p {
     margin: 0;
     height: 75px;
+    overflow: hidden;
 }
 
 .usp h3 {
