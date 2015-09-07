@@ -1168,6 +1168,7 @@ main table td, main table th {
 main table th {
     padding: 22px 30px 17px;
     font: 800 12px/16px 'GothamLight', sans-serif;
+    color: #fff;
     letter-spacing: 1.2px;
     text-transform: uppercase;
     background: #0081b3;
