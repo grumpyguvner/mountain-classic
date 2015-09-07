@@ -13,8 +13,8 @@ $(document).ready(function () {
 	if (!('ontouchstart' in document.documentElement)) { document.documentElement.className += 'hover'; }
 
 	/******************** Photo Credits **********************************/
-	$.each($('img'), function (e) {
-		console.log("Credit;" + e.data('credit'));
+	$('img').each(function () {
+		console.log("Credit;" + $(this).data('credit'));
 	});
 	
 	/******************** Navigation & General Layout ********************/
