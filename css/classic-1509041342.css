@@ -1853,20 +1853,24 @@ main blockquote {
     width: 100%;
 }
 
-#other-rooms div {
+#other-rooms .col {
     width: 25%;
     position: relative;
     float: left;
 }
 
-#other-rooms span {
+#other-rooms .col .col-content {
+    padding: 10px;
+}
+
+#other-rooms .col .col-content span {
     position: absolute;
     top: 10px;
     background-color: rgb(0, 129, 179);
     color: rgb(238, 238, 238);
 }
 
-#other-rooms img {
+#other-rooms .col .col-content img {
     width: 100%;
     height: auto;
 }
