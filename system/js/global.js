@@ -21,7 +21,7 @@ $(document).ready(function () {
 			$('#credit-' + cnt).css({
 				position: "absolute",
 				bottom: 0, left: 0
-			}).appendTo(this)
+			}).after(this);
 		}
 	});
 	
