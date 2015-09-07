@@ -1847,21 +1847,23 @@ main blockquote {
     opacity: 1;
 }
 
-.other-rooms {
+#other-rooms {
     width: 100%;
 }
 
-.other-rooms div {
+#other-rooms div {
     width: 25%;
 }
 
-.other-rooms span {
+#other-rooms span {
     position: absolute;
-    top: 50%;
+    top: 10px;
+    color: rgb(0, 129, 179);
+    background-color: rgb(238, 238, 238);
 }
-
 .other-rooms img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 /* 5.2 - Video */
 
