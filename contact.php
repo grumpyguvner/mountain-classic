@@ -117,10 +117,7 @@ else {
                         <li><a href="/dates-and-prices.html">Dates &amp; Prices</a></li>
                         <li><a href="/how-to-book.html">How To Book</a></li>
                         <li><a href="/downloads/booking-form.pdf">Booking Form</a></li>
-                        <li><a href="/booking-conditions.html">Booking Conditions</a></li>
-                    </ul>
-                </li>
-                <li><a href="/determining-your-ski-level.html">Find Your Ski Level</a></li>
+                        <li><a href="/booking-conditions.html">Booking Conditions</a></li><li><a href="/determining-your-ski-level.html">Find Your Ski Level</a></li></ul></li><li><a target="_Blank" href="/downloads/ClassicAlpine_Ski_Brochure_2015_lowres.pdf">Download Brochure</a></li>
                 <li><a href="/about-us.html">About Us</a></li>
                 <li><a href="/contact.php">Contact</a></li>
             </ul>
